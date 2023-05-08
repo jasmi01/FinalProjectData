@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Data</title>
+</head>
+<body>
+    <h1>JSON Data</h1>
+    <div id="json-data"></div>
+
+    <script>
+        const url = 'https://api.umd.io/v1/bus/stops';
+        const request = new XMLHttpRequest();
+        request.open('GET', url, true);
+        request.onload = function () {
+            if (request.status === 200) {
+                const data = JSON.parse(request.responseText);
+                const jsonData = JSON.stringify(data, null, 2);
+                document.getElementById('json-data').innerHTML = '<pre>' + jsonData + '</pre>';
+            } else {
+                document.getElementById('json-data').innerHTML = 'Error loading JSON data';
+            }
+        };
+        request.send();
+    </script>
+</body>
+</html>
+
+      
