@@ -1,4 +1,5 @@
-[{'stop_id': 'regdrgar_d', 'title': 'Regents Drive Garage', 'lat': 38.9895211, 'long': -76.9407719},
+[
+      {'stop_id': 'regdrgar_d', 'title': 'Regents Drive Garage', 'lat': 38.9895211, 'long': -76.9407719},
 {'stop_id': 'campmath', 'title': 'Campus Dr at Math Slip', 'lat': 38.9878609, 'long': -76.9386053},
 {'stop_id': 'paingree', 'title': 'Campus Drive and Diamondback Drive', 'lat': 38.9879877, 'long': -76.934037},
 {'stop_id': 'painrhod', 'title': 'Campus Drive and Rhode Island Avenue (Outbound)', 'lat': 38.9836051, 'long': -76.9313264},
@@ -108,7 +109,8 @@
 {'stop_id': 'somehall', 'title': 'Somerset Hall', 'lat': 38.9847538, 'long': -76.9458235},
 {'stop_id': 'annearun', 'title': 'Anne Arundel Hall', 'lat': 38.9859448, 'long': -76.9469495},
 {'stop_id': 'dorchall', 'title': 'Dorchester Hall', 'lat': 38.9869691, 'long': -76.9465401},
-{'stop_id': 'enclave_s', 'title': 'The Enclave', 'lat': 38.99782, 'long': -76.93182}]
+{'stop_id': 'enclave_s', 'title': 'The Enclave', 'lat': 38.99782, 'long': -76.93182}
+]
 
 
 
